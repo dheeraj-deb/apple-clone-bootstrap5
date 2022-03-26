@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.title-wrapper{
+    margin-top: 8rem;
+    font-size: 45px !important;
+    color: #1d1d1f !important;
+}
+
+.title-wrapper ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+
+.img-wrapper .mob1{
+    /* width: 33rem; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-wrapper .mob2{
+    /* width: 49rem; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.card1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.card1{
+    height: fit-content;
+}
+.banner div:nth-child(1){
+    width: 100vw;
+}
+
+.footer-links-wrapper a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links-wrapper h3{
+    font-size: 17px;
+}
