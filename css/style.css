@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 .title-wrapper{
     margin-top: 8rem;
@@ -48,4 +51,28 @@
 
 .footer-links-wrapper h3{
     font-size: 17px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .img-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .img-wrapper img{
+        width: 250px;
+    }
+
+    .wid{
+        width: 250px;
+    }
+
+    .navbar-collapse ul{
+        align-items: flex-start !important;
+    }
 }
